@@ -18,6 +18,12 @@ body {
 }
 
 /* 
+
+===== Cat =====
+
+*/
+
+/* 
     original width and height
     width : 800px;
     height: 930px;
@@ -37,6 +43,10 @@ body {
 .cat-open {
     background: url("cat_noBG.png") -400px 0;
 }
+
+/*
+===== Reset button =====
+*/
 
 #reset-btn {
     border: 0;
