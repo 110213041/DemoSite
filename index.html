@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome Pop Cat Website!</title>
+    <meta name="description" content="For Study purpose">
+    <meta name="author" content="7th group">
+    <link rel="stylesheet" href="./styles.css">
+    <script defer src="./scripts.js"></script>
+</head>
+<body>
+    <div class="pop-container">
+        Pop Counter : <span id="pop-counter"></span>
+    </div>
+    <div onMouseDown="popTheCat()" onMouseUp="closeTheCat()" id="cat-btn" class="cat-close"></div>
+    <button id="reset-btn" onClick="resetPopCount()">Reset Progress</button>
+</body>
