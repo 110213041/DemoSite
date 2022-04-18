@@ -27,6 +27,8 @@ if (!sessionStorage.isViewed || !Boolean(sessionStorage.isViewed)) {
 // click the cat, open her mouth.
 const popTheCat = () => {
     catClass.replace("cat-close", "cat-open");
+    const audio = new Audio("pop.ogg");
+    audio.play();
     localStorage.popCount = Number(localStorage.popCount) + 1;
     updatePopCount()
 }
